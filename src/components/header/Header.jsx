@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export const Header = () => {
   return (
     <div>
         <header>
-          <h1>Trello</h1>
+          <h1>Task List</h1>
         </header>
     </div>
-  )
+  );
 }

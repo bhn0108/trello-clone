@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const TaskCardDeleteButton = ({
   taskCardsList,
@@ -15,7 +15,7 @@ export const TaskCardDeleteButton = ({
         className="taskCardDeleteButton"
         onClick={() => taskCardDeleteButton(taskCard.id)}
       >
-        <i class="fa-solid fa-xmark"></i>
+        <i className="fas fa-times"></i>
       </button>
     </div>
   );
