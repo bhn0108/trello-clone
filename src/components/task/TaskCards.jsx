@@ -21,7 +21,7 @@ export const TaskCards = () => {
     reorder(taskCardsList, result.source.index, result.destination.index);
 
     setTaskCardsList(taskCardsList);
-  };
+  }
 
   return (
     <DragDropContext onDragEnd={handleDragEnd}>
